@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/fatih/dev/max1000/projects/max1k_sdr/system_adc1.qsys --block-symbol-file --output-directory=/home/fatih/dev/max1000/projects/max1k_sdr/system_adc1 --family="MAX 10" --part=10M08SAU169C8GES
+Progress: Loading max1k_sdr/system_adc1.qsys
+Progress: Reading input file
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/fatih/dev/max1000/projects/max1k_sdr/system_adc1.qsys --synthesis=VERILOG --output-directory=/home/fatih/dev/max1000/projects/max1k_sdr/system_adc1/synthesis --family="MAX 10" --part=10M08SAU169C8GES
+Progress: Loading max1k_sdr/system_adc1.qsys
+Progress: Reading input file
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system_adc1: Generating system_adc1 "system_adc1" for QUARTUS_SYNTH
+Info: modular_adc_0: "system_adc1" instantiated altera_modular_adc "modular_adc_0"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: system_adc1: Done "system_adc1" with 3 modules, 9 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
